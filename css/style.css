@@ -44,3 +44,9 @@
 #toppic {
   width: 100%;
 }
+.card-body {
+  background-color: #00AE58;
+}
+.card {
+  background-color: #00AE58;
+}
