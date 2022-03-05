@@ -1,7 +1,28 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+h1 {
+  font-size: 72px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+h2 {
+  font-size: 36px;
+  font-weight: 400;
+  margin-top: 10px;
+  margin-bottom: 0px;
+}
+h3{
+  font-size: 36px;
+  font-weight: 400; 
+  margin-top: 10px;
+  margin-bottom: 70px;
+
+}
 /* Style the navigation menu */
 .topnav {
   overflow: hidden;
-  background-color: #04AA6D;
+  background-color: #00AE58 !important;
   position: relative;
 }
 
@@ -21,13 +42,15 @@
 
 /* Style the hamburger menu */
 .topnav a.icon {
-  background: black;
+  background: ;
   display: block;
   position: absolute;
   right: 0;
   top: 0;
 }
-
+#headerLogo {
+  width: 30px;
+}
 /* Add a grey background color on mouse-over */
 .topnav a:hover {
   background-color: #ddd;
@@ -51,7 +74,6 @@
  }
 
 #toppic {
-  outline: red solid 1px;
   width: 100%;
 }
 #section2 {
@@ -72,35 +94,82 @@
   text-align: center;
 }
 .card {
+  margin: auto;
   outline: red solid 1px;
-  width: 85%;
   display: flex;
+  width: 50%;
+  height: 130px;
   flex-direction: row;
+  justify-content: space-around;
+  border-radius: 25px;
+  
 }
 .card-body {
   outline: red solid 1px;
   width: 100%;
   background-color: #00AE58;
+  padding: 15px;
+  display:block;
+  border-radius: 25px;
   
+}
+#card1pic {
+  display: flex;
+  width: 25%;
+  justify-content: center;
+  align-items: center;
+}
+#card1text {
+  width:75%;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 800;
+  color: #ffffff;
 }
 #cardGreen {
   outline: red solid 1px;
   width: 100%;
   background-color: #00AE58;
 }
-.scrollable {
+#card2pic {
+  display: flex;
+  width: 25%;
+  justify-content: center;
+  align-items: center;
+
+}
+#card2text {
+  width:50%;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 800;
+  color: #ffffff;
+  
+}
+#card2numbers {
+  width: 25%;
+  text-align: center;
+  font-size: 20px;
+  color: #ffffff;
+}
+
+/*.scrollable {
   display: flex;
   flex-direction: row;
 }
+*/
+
 div #cardKhaki {
-    width: 365px;
+  outline: red solid 1px;
+    width: 100%;
     height: 107px;
     display: flex;
     position: relative;
     box-sizing: border-box;
     align-items: flex-start;
     flex-shrink: 1;
-    border-color: transparent
+    border-color: transparent;
+    background-color: #efebdf;
 
 }
 #section4 {
@@ -109,5 +178,23 @@ div #cardKhaki {
   margin:auto;
   background-color: #00AE58;
   justify-content: center;
+}
+footer{
+  text-align: center;
+  margin: 10px;
+}
+.column{
+  outline: red solid 1px;
+  display: flex;
+  height:100%
+}
+#footerLogo {
+  width:120px;
+  padding-top: 20px;
+}
+#columnpic {
+  width: 100px;
+  height: 100px;
+  align-items: center;
 }
 
