@@ -42,7 +42,6 @@ h3{
 
 /* Style the hamburger menu */
 .topnav a.icon {
-  background: ;
   display: block;
   position: absolute;
   right: 0;
@@ -225,26 +224,22 @@ footer{
 #columntext {
   align-items: center;
 }
-#columnnumbers {
 
-}
 .scrollable {
   height: 100px; /* or any value */
   overflow-y: auto;
-
-  * {
-    margin: 0;
-    padding: 0
 }
+ 
+
 .container {
-    background-color: #eee;
-    height: 100vh;
+    background-color: #efebdf;
+    height: 100%;
     display: flex;
     justify-content: center;
-    align-items: center
+    align-items: center;
 }
 .heart {
-    background-color: #DDDDDD;
+    background-color: #daeddd;
     height: 60px;
     width: 60px;
     display: flex;
@@ -254,11 +249,11 @@ footer{
     font-size: 19px;
     cursor: pointer;
     transition: all 0.5s;
-    position: relative
+    position: relative;
 }
 .heart:hover {
     color: #FB076D;
-    background-color: #fb076d40
+    background-color: #fb076d40;
 }
 .heart .counter {
     position: absolute;
@@ -271,17 +266,20 @@ footer{
     font-size: 16px;
     height: 40px;
     width: 40px;
-    background-color: #FB076D
+    background-color: #FB076D;
 }
 .heart:hover .counter {
     animation: anim 1s forwards;
-    z-index: 1
+    z-index: 1;
 }
 @keyframes anim {
     from {
-        top: 0px
+        top: 0px;
     }
     to {
-        top: -48px
+        top: -48px;
     }
 }
+
+
+  
