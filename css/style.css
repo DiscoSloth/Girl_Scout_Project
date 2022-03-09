@@ -204,10 +204,14 @@ width: 100%;
   background-color: #00AE58;
   justify-content: center;
 }
+
 footer{
   text-align: center;
   margin: 10px;
+  color: white;
+  padding-bottom: 20px;
 }
+
 .column{
   display: flex;
   height:100%

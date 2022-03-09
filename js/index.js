@@ -9,7 +9,7 @@ function myFunction() {
   };
 
   var heart_button = document.getElementById("heart-button");
-heart_button.addEventListener('click', function() {
+heart_button.addEventListener("click", function() {
 let counter_value = document.querySelector(".counter");
 let count = counter_value.innerHTML;
 counter = Number(count)+1;
