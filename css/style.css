@@ -22,7 +22,7 @@ h3{
 /* Style the navigation menu */
 .topnav {
   overflow: hidden;
-  background-color: #00AE58 !important;
+  background-color:  #00AE58!important;
   position: relative;
 }
 
@@ -52,13 +52,13 @@ h3{
 }
 /* Add a grey background color on mouse-over */
 .topnav a:hover {
-  background-color: #ddd;
+  background-color: #00AE58;
   color: black;
 }
 
 /* Style the active link (or home/logo) */
 .active {
-  background-color: #04AA6D;
+  background-color: #00AE58;
   color: white;
 }
 
